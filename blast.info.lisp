@@ -35,5 +35,4 @@
                   "tblastx"
                   "tblastx.REAL"
                   "update_blastdb.pl"
-                  "windowmasker")
- (:versions       "2.16.0"))
+                  "windowmasker"))
