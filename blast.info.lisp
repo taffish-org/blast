@@ -1,9 +1,8 @@
 ((:name           "blast")
  (:repo           "https://github.com/HermitHan/blast")
  (:author         "KaiyuanHan")
- (:latest-version "2.16.0" "2025-03-03")
+ (:version        "2.16.0")
  (:dependencies)
- (:versions       "2.16.0")
  (:functions      "blast_formatter"
                   "blast_formatter_vdb"
                   "blast_vdb_cmd"
@@ -36,4 +35,5 @@
                   "tblastx"
                   "tblastx.REAL"
                   "update_blastdb.pl"
-                  "windowmasker"))
+                  "windowmasker")
+ (:versions       "2.16.0"))
