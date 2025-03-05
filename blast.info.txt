@@ -1,4 +1,4 @@
-# <blast:2.16.0 | KaiyuanHan | 2025-03-03>
+# <blast:2.16.0 | KaiyuanHan | 2025-03-06>
 ### Optional ##############################################################################
     <main>
         if ( echo '::dbin::' | grep "\.fasta$" > /dev/null 2>&1 ); then makeblastdb ::db-opts::; fi;
