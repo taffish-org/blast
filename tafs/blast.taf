@@ -53,5 +53,5 @@ ARGS
     <in>
         # input fasta file
 RUN
-    <container:taf-blast:docker.io/ncbi/blast:2.16.0>
+    <container:taf-blast-v2.16.0:docker.io/ncbi/blast:2.16.0>
         ::*MAIN*::
