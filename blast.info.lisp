@@ -1,5 +1,5 @@
 (:name           "blast")
-(:repo           "HermitHan/blast")
+(:repo           "taffish-org/blast")
 (:author         "KaiyuanHan")
 (:version        "2.16.0")
 (:intro          "BLAST(ncbi) finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance.")

@@ -1,4 +1,4 @@
-# <blast:2.16.0 | KaiyuanHan | 2025-03-06>
+# <blast:2.16.0 | KaiyuanHan | 2025-03-08>
 ### Optional ##############################################################################
     <main>
         if ( echo '::dbin::' | grep "\.fasta$" > /dev/null 2>&1 ); then makeblastdb ::db-opts::; fi;
@@ -35,5 +35,5 @@
     <in>
         # input fasta file
 ### RUN ##############################################################################
-    <container:taf-blast-v2.16.0:docker.io/ncbi/blast:2.16.0>
+    <container:taf-blast-v2.16.0:ghcr.io/taffish-org/blast:2.16.0>
         ::*MAIN*::
