@@ -1,7 +1,7 @@
 # <blast:2.16.0 | KaiyuanHan | 2025-03-08>
 ### Optional ##############################################################################
     <main>
-        mkdir -p ::outdir:: ; mkdir -p ::dbout:: ;
+        # mkdir -p ::outdir:: ; mkdir -p ::dbout:: ;
         if ( echo '::dbin::' | grep "\.fasta$" > /dev/null 2>&1 ); then makeblastdb ::db-opts::; fi;
         ::cmd:: ::opts::
     <outdir>
