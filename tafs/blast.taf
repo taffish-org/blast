@@ -19,7 +19,7 @@ ARGS
         threads       4
         outfmt        6
     <main>
-        mkdir -p ::outdir:: ; mkdir -p ::db-out:: ;
+        mkdir -p ::outdir:: ; mkdir -p ::dbout:: ;
         if ( echo '::dbin::' | grep "\.fasta$" > /dev/null 2>&1 ); then makeblastdb ::db-opts::; fi;
         ::cmd:: ::opts::
     <outdir>
